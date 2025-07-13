@@ -23,7 +23,7 @@ jobs:
       - name: Commit new map
         run: |
           git config --global user.name 'Collect Bot'
-          git config --global user.email 'noreply@gohr.digital'
+          git config --global user.email 'philip.poten@gmail.com'
           git add .
           git commit -m ":arrow_up: Add data for today"
           git pull -r
